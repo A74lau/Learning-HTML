@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My first webpage</title>
+    </head>
+    <body>
+
+        <a href = "https://www.google.com">
+            <button style = "background-color: black; color: lightgreen; border-radius: 5px">Click me</button>
+        </a>
+        <br>
+        <button onclick = "doSomething()" style = "background-color: black; color: lightblue; border-radius:5px">SecondButton</button>
+        
+        <p id = "test">Hello</p>
+
+        <script>
+            function doSomething() {
+                document.getElementById("test").innerHTML = "Goodbye";
+            }
+        </script>
+
+    </body>
+</html>
